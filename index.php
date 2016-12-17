@@ -30,21 +30,7 @@
 </table>
 
 
-
-<!--
-<center>
-<table id="rostertop">
-<tr>
-    <th id="roster"><div onclick="showForm(1);" name="show" value="On">Click me to see fan art!</div></th>
-</tr>
-<tr>
-    <td id="roster"><div id="hideart"><?php include 'art.html';?></div></td>
-</tr>
-</table>
-<center>
-<br><br><br>
--->
-
+<!-- Database Connection -->
 <?php
 // Get DB Connection
   include_once "DBConnection.php";
@@ -56,28 +42,28 @@
   }
 ?>
 
+
 <!-- Roster List -->
 <div>- Roster -</div>
 <center>
 <table id="rostertop" style="background: rgba(0,0,0,0.5)">
   <tr>
-    <th id="roster">Rank</th>
-    <th id="roster">Name</th>
-    <th id="roster">Join Date</th>
-    <th id="roster">Discord ID</th>
+    <th id="rostera">Rank</th>
+    <th id="rosterb">Name</th>
+    <th id="rosterc">Join Date</th>
+    <th id="rosterd">Discord ID</th>
   </tr>
 
 <?php
 $memberQuery = "SELECT `id`, `rank`, `name`, `joindate`, `discordid` FROM Master ORDER BY `joindate`";
 $Master = $dbh->query($memberQuery);
-
 foreach ($Master as $user) {
   ?>
   <tr>
-    <td><?php echo $user["rank"] ?></td>
-    <td><?php echo $user["name"] ?></td>
-    <td><?php echo $user["joindate"] ?></td>
-    <td><?php echo $user["discordid"] ?></td>
+    <td id="rostera"><?php echo $user["rank"] ?></td>
+    <td id="rosterb"><?php echo $user["name"] ?></td>
+    <td id="rosterc"><?php echo $user["joindate"] ?></td>
+    <td id="rosterd"><?php echo $user["discordid"] ?></td>
   </tr>
   <?php
 }
@@ -89,14 +75,13 @@ foreach ($Master as $user) {
 <?php
 $memberQuery = "SELECT `id`, `rank`, `name`, `joindate`, `discordid` FROM Officer ORDER BY `joindate`";
 $Officer = $dbh->query($memberQuery);
-
 foreach ($Officer as $user) {
   ?>
   <tr>
-    <td><?php echo $user["rank"] ?></td>
-    <td><?php echo $user["name"] ?></td>
-    <td><?php echo $user["joindate"] ?></td>
-    <td><?php echo $user["discordid"] ?></td>
+    <td id="rostera"><?php echo $user["rank"] ?></td>
+    <td id="rosterb"><?php echo $user["name"] ?></td>
+    <td id="rosterc"><?php echo $user["joindate"] ?></td>
+    <td id="rosterd"><?php echo $user["discordid"] ?></td>
   </tr>
   <?php
 }
@@ -105,16 +90,15 @@ foreach ($Officer as $user) {
     <th id="roster1" colspan="4"></th>
   </tr>
 <?php
-$memberQuery = "SELECT `id`, `rank`, `name`, `joindate`, `discordid` FROM Officer ORDER BY `joindate`";
+$memberQuery = "SELECT `id`, `rank`, `name`, `joindate`, `discordid` FROM Fighter ORDER BY `joindate`";
 $Fighter = $dbh->query($memberQuery);
-
 foreach ($Fighter as $user) {
   ?>
   <tr>
-    <td><?php echo $user["rank"] ?></td>
-    <td><?php echo $user["name"] ?></td>
-    <td><?php echo $user["joindate"] ?></td>
-    <td><?php echo $user["discordid"] ?></td>
+    <td id="rostera"><?php echo $user["rank"] ?></td>
+    <td id="rosterb"><?php echo $user["name"] ?></td>
+    <td id="rosterc"><?php echo $user["joindate"] ?></td>
+    <td id="rosterd"><?php echo $user["discordid"] ?></td>
   </tr>
   <?php
 }
@@ -123,22 +107,21 @@ foreach ($Fighter as $user) {
     <th id="roster1" colspan="4"></th>
   </tr>
 <?php
-$memberQuery = "SELECT `id`, `rank`, `name`, `joindate`, `discordid` FROM Officer ORDER BY `joindate`";
+$memberQuery = "SELECT `id`, `rank`, `name`, `joindate`, `discordid` FROM Recruit ORDER BY `joindate`";
 $Recruit = $dbh->query($memberQuery);
-
 foreach ($Recruit as $user) {
   ?>
   <tr>
-    <td><?php echo $user["rank"] ?></td>
-    <td><?php echo $user["name"] ?></td>
-    <td><?php echo $user["joindate"] ?></td>
+    <td id="rostera"><?php echo $user["rank"] ?></td>
+    <td id="rosterb"><?php echo $user["name"] ?></td>
+    <td id="rosterc"><?php echo $user["joindate"] ?></td>
   </tr>
   <?php
 }
 ?>
 </table>
 
-<table id="rostercontact" width="550" style="background: rgba(0,0,0,0.5)">
+<table id="rostercontact" style="background: rgba(0,0,0,0.5)">
 <tr>
 <th id="roster"><div id="contact">Contact our Master or one of our Officer's if you are interested in joining forces with Lethal Assassins, or you wish to set up a Clan War.</div></th>
 </tr>
@@ -146,6 +129,7 @@ foreach ($Recruit as $user) {
 </center>
 
 <br><br><br>
+
 
 <!-- Screenshots -->
 <div>- Screenshots -</div>
@@ -180,15 +164,12 @@ foreach ($Recruit as $user) {
 <script>
 var slideIndex = 1;
 showDivs(slideIndex);
-
 function plusDivs(n) {
   showDivs(slideIndex += n);
 }
-
 function currentDiv(n) {
   showDivs(slideIndex = n);
 }
-
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");

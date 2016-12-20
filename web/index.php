@@ -31,7 +31,7 @@
 
 
 
-<!--
+<?php /*
 <center>
 <table id="rostertop">
 <tr>
@@ -43,7 +43,7 @@
 </table>
 <center>
 <br><br><br>
--->
+*/?>
 
 <?php
 // Get DB Connection

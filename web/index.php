@@ -139,7 +139,7 @@ foreach ($Recruit as $user) {
   <img class="mySlides" src="http://imgur.com/WuepXLd.jpg" style="width:100%"/>
   <img class="mySlides" src="http://imgur.com/Mkz1oMj.jpg" style="width:100%"/>
   <img class="mySlides" src="http://imgur.com/sMo48zc.jpg" style="width:100%"/>
-  <img class="mySlides" src="http://imgur.com/X1xyVRr.jpg" style="width:100%"/>
+  <img class="mySlides" src="http://imgur.com/914Rvf3.jpg" style="width:100%"/>
   <img class="mySlides" src="http://imgur.com/QMo1A9R.jpg" style="width:100%"/>
   <img class="mySlides" src="http://imgur.com/YLBbmBD.jpg" style="width:100%"/>
   <img class="mySlides" src="http://imgur.com/3Iqrxkg.jpg" style="width:100%"/>
@@ -156,7 +156,7 @@ foreach ($Recruit as $user) {
   <img class="mySlides" src="http://imgur.com/Avm7zQE.jpg" style="width:100%"/>
   <img class="mySlides" src="http://imgur.com/X5dzXw3.jpg" style="width:100%"/>
   <img class="mySlides" src="http://imgur.com/1qb5di1.jpg" style="width:100%"/>
-  <img class="mySlides" src="http://imgur.com/hISbQb.jpgR" style="width:100%"/>
+  <img class="mySlides" src="http://imgur.com/hISbQbR.jpg" style="width:100%"/>
   <img class="mySlides" src="http://imgur.com/vOVN031.jpg" style="width:100%"/>
   <div class="w3-center w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
     <div class="w3-left w3-padding-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>

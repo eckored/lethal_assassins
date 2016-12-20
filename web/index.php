@@ -47,7 +47,7 @@
 
 <?php
 // Get DB Connection
-  include_once "DBConnection.php";
+  include_once "../DBConnection.php";
   try {
     $dbh = new PDO($db_connection_string, $db_user, $db_password);
   }

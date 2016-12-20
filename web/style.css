@@ -13,22 +13,22 @@ div {
 	font-size: 140%;
 	text-align: center;
 }
-div#contact {
+div.contact {
 	color: #F4F4F4;
 	font-family: verdana;
 	font-size: 90%;
 	text-align: justify;
 }
-table#rostertop {
+table.rostertop {
 	border-top: 3px solid #F4F4F4;
 	border-bottom: 3px solid #F4F4F4;
 }
-table#rostercontact {
+table.rostercontact {
 	border-top: 0px;
 	border-bottom: 2px solid #F4F4F4;
     width: 550px;
 }
-th#roster {
+th.roster {
     color: #F4F4F4;
     font-family: verdana;
     font-size: 110%;
@@ -36,7 +36,7 @@ th#roster {
 	padding-right: 20px;
 	border-bottom: 2px solid #F4F4F4;
 }
-th#rostera {
+th.rostera {
     color: #F4F4F4;
     font-family: verdana;
     font-size: 110%;
@@ -45,7 +45,7 @@ th#rostera {
 	border-bottom: 2px solid #F4F4F4;
     text-align: center;
 }
-th#rosterb {
+th.rosterb {
     color: #F4F4F4;
     font-family: verdana;
     font-size: 110%;
@@ -54,7 +54,7 @@ th#rosterb {
 	border-bottom: 2px solid #F4F4F4;
     text-align: left;
 }
-th#rosterc {
+th.rosterc {
     color: #F4F4F4;
     font-family: verdana;
     font-size: 110%;
@@ -63,7 +63,7 @@ th#rosterc {
 	border-bottom: 2px solid #F4F4F4;
     text-align: center;
 }
-th#rosterd {
+th.rosterd {
     color: #F4F4F4;
     font-family: verdana;
     font-size: 110%;
@@ -72,7 +72,7 @@ th#rosterd {
 	border-bottom: 2px solid #F4F4F4;
     text-align: right;
 }
-th#roster1 {
+th.roster1 {
     color: #808080;
     font-family: verdana;
     font-size: 110%;
@@ -80,14 +80,14 @@ th#roster1 {
 	padding-right: 20px;
 	border-bottom: 1px solid #808080;
 }
-td#roster {
+td.roster {
     color: #F4F4F4;
     font-family: verdana;
     font-size: 100%;
 	padding-left: 20px;
 	padding-right: 20px;
 }
-td#rostera {
+td.rostera {
     color: #F4F4F4;
     font-family: verdana;
     font-size: 100%;
@@ -95,7 +95,7 @@ td#rostera {
 	padding-right: 20px;
     text-align: center;
 }
-td#rosterb {
+td.rosterb {
     color: #F4F4F4;
     font-family: verdana;
     font-size: 100%;
@@ -103,7 +103,7 @@ td#rosterb {
 	padding-right: 20px;
     text-align: left;
 }
-td#rosterc {
+td.rosterc {
     color: #F4F4F4;
     font-family: verdana;
     font-size: 100%;
@@ -111,7 +111,7 @@ td#rosterc {
 	padding-right: 20px;
     text-align: center;
 }
-td#rosterd {
+td.rosterd {
     color: #F4F4F4;
     font-family: verdana;
     font-size: 100%;

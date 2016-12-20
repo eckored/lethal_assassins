@@ -45,12 +45,12 @@
 <!-- Roster List -->
 <div>- Roster -</div>
 <center>
-<table id="rostertop" style="background: rgba(0,0,0,0.5)">
+<table class="rostertop" style="background: rgba(0,0,0,0.5)">
   <tr>
-    <th id="rostera">Rank</th>
-    <th id="rosterb">Name</th>
-    <th id="rosterc">Join Date</th>
-    <th id="rosterd">Discord ID</th>
+    <th class="rostera">Rank</th>
+    <th class="rosterb">Name</th>
+    <th class="rosterc">Join Date</th>
+    <th class="rosterd">Discord ID</th>
   </tr>
 
 <?php
@@ -69,7 +69,7 @@ foreach ($Master as $user) {
 ?>
   </tr>
   <tr>
-    <th id="roster1" colspan="4"></th>
+    <th class="roster1" colspan="4"></th>
   </tr>
 <?php
 $memberQuery = "SELECT `id`, `rank`, `name`, `joindate`, `discordid` FROM player WHERE rank = 2 OR rank = 3 ORDER BY rank ASC, `joindate`";
@@ -86,7 +86,7 @@ foreach ($Officer as $user) {
 }
 ?>
   <tr>
-    <th id="roster1" colspan="4"></th>
+    <th class="roster1" colspan="4"></th>
   </tr>
 <?php
 $memberQuery = "SELECT `id`, `rank`, `name`, `joindate`, `discordid` FROM player WHERE rank = 4 ORDER BY `joindate`";
@@ -103,7 +103,7 @@ foreach ($Fighter as $user) {
 }
 ?>
   <tr>
-    <th id="roster1" colspan="4"></th>
+    <th class="roster1" colspan="4"></th>
   </tr>
 <?php
 $memberQuery = "SELECT `id`, `rank`, `name`, `joindate`, `discordid` FROM player WHERE rank = 13 ORDER BY `joindate`";
@@ -120,9 +120,9 @@ foreach ($Recruit as $user) {
 ?>
 </table>
 
-<table id="rostercontact" style="background: rgba(0,0,0,0.5)">
+<table class="rostercontact" style="background: rgba(0,0,0,0.5)">
 <tr>
-<th id="roster"><div id="contact">Contact our Master or one of our Officer's if you are interested in joining forces with Lethal Assassins, or you wish to set up a Clan War.</div></th>
+<th class="roster"><div class="contact">Contact our Master or one of our Officer's if you are interested in joining forces with Lethal Assassins, or you wish to set up a Clan War.</div></th>
 </tr>
 </table>
 </center>

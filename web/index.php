@@ -74,7 +74,7 @@ $Master = $dbh->query($memberQuery);
 foreach ($Master as $user) {
   ?>
   <tr>
-    <td><?php echo $user["rank"] ?></td>
+    <td>Clan Master</td>
     <td><?php echo $user["name"] ?></td>
     <td><?php echo $user["joindate"] ?></td>
     <td><?php echo $user["discordid"] ?></td>
@@ -93,7 +93,7 @@ $Officer = $dbh->query($memberQuery);
 foreach ($Officer as $user) {
   ?>
   <tr>
-    <td><?php echo $user["rank"] ?></td>
+    <td>Officer</td>
     <td><?php echo $user["name"] ?></td>
     <td><?php echo $user["joindate"] ?></td>
     <td><?php echo $user["discordid"] ?></td>
@@ -111,7 +111,7 @@ $Fighter = $dbh->query($memberQuery);
 foreach ($Fighter as $user) {
   ?>
   <tr>
-    <td><?php echo $user["rank"] ?></td>
+    <td>Fighter</td>
     <td><?php echo $user["name"] ?></td>
     <td><?php echo $user["joindate"] ?></td>
     <td><?php echo $user["discordid"] ?></td>
@@ -129,7 +129,7 @@ $Recruit = $dbh->query($memberQuery);
 foreach ($Recruit as $user) {
   ?>
   <tr>
-    <td><?php echo $user["rank"] ?></td>
+    <td>Recruit</td>
     <td><?php echo $user["name"] ?></td>
     <td><?php echo $user["joindate"] ?></td>
   </tr>

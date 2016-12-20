@@ -1,6 +1,10 @@
 body {
     background-color: #FFFFFF;
+<<<<<<< HEAD
+    background-image: url('http://i.imgur.com/h1rbDlI.jpg');
+=======
     background-image: url('img/bg2.jpg');
+>>>>>>> origin/master
     /*min-height: 500px;*/
     background-attachment: fixed;
     background-position: top;
@@ -10,24 +14,53 @@ body {
 div {
 	color: #F4F4F4;
 	font-family: verdana;
+<<<<<<< HEAD
+	font-size: 120%;
+	text-align: center;
+}
+.contact {
+=======
 	font-size: 140%;
 	text-align: center;
 }
 div.contact {
+>>>>>>> origin/master
 	color: #F4F4F4;
 	font-family: verdana;
 	font-size: 90%;
 	text-align: justify;
 }
+<<<<<<< HEAD
+.rostertop {
+	border-top: 3px solid #F4F4F4;
+	border-bottom: 3px solid #F4F4F4;
+}
+.rostercontact {
+=======
 table.rostertop {
 	border-top: 3px solid #F4F4F4;
 	border-bottom: 3px solid #F4F4F4;
 }
 table.rostercontact {
+>>>>>>> origin/master
 	border-top: 0px;
 	border-bottom: 2px solid #F4F4F4;
     width: 550px;
 }
+<<<<<<< HEAD
+.rostercontact {
+    color: #F4F4F4;
+    font-family: verdana;
+    font-size: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+	/*border-bottom: 2px solid #F4F4F4;*/
+}
+.rostertha {
+    color: #F4F4F4;
+    font-family: verdana;
+    font-size: 100%;
+=======
 th.roster {
     color: #F4F4F4;
     font-family: verdana;
@@ -40,46 +73,88 @@ th.rostera {
     color: #F4F4F4;
     font-family: verdana;
     font-size: 110%;
+>>>>>>> origin/master
 	padding-left: 20px;
 	padding-right: 20px;
 	border-bottom: 2px solid #F4F4F4;
     text-align: center;
 }
+<<<<<<< HEAD
+.rosterthb {
+    color: #F4F4F4;
+    font-family: verdana;
+    font-size: 100%;
+=======
 th.rosterb {
     color: #F4F4F4;
     font-family: verdana;
     font-size: 110%;
+>>>>>>> origin/master
 	padding-left: 20px;
 	padding-right: 20px;
 	border-bottom: 2px solid #F4F4F4;
     text-align: left;
 }
+<<<<<<< HEAD
+.rosterthc {
+    color: #F4F4F4;
+    font-family: verdana;
+    font-size: 100%;
+=======
 th.rosterc {
     color: #F4F4F4;
     font-family: verdana;
     font-size: 110%;
+>>>>>>> origin/master
 	padding-left: 20px;
 	padding-right: 20px;
 	border-bottom: 2px solid #F4F4F4;
     text-align: center;
 }
+<<<<<<< HEAD
+.rosterthd {
+    color: #F4F4F4;
+    font-family: verdana;
+    font-size: 100%;
+=======
 th.rosterd {
     color: #F4F4F4;
     font-family: verdana;
     font-size: 110%;
+>>>>>>> origin/master
 	padding-left: 20px;
 	padding-right: 20px;
 	border-bottom: 2px solid #F4F4F4;
     text-align: right;
 }
+<<<<<<< HEAD
+.rosterth {
+    color: #808080;
+    font-family: verdana;
+    font-size: 100%;
+=======
 th.roster1 {
     color: #808080;
     font-family: verdana;
     font-size: 110%;
+>>>>>>> origin/master
 	padding-left: 20px;
 	padding-right: 20px;
 	border-bottom: 1px solid #808080;
 }
+<<<<<<< HEAD
+.roster {
+    color: #F4F4F4;
+    font-family: verdana;
+    font-size: 90%;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.rostera {
+    color: #F4F4F4;
+    font-family: verdana;
+    font-size: 90%;
+=======
 td.roster {
     color: #F4F4F4;
     font-family: verdana;
@@ -91,30 +166,52 @@ td.rostera {
     color: #F4F4F4;
     font-family: verdana;
     font-size: 100%;
+>>>>>>> origin/master
 	padding-left: 20px;
 	padding-right: 20px;
     text-align: center;
 }
+<<<<<<< HEAD
+.rosterb {
+    color: #F4F4F4;
+    font-family: verdana;
+    font-size: 90%;
+=======
 td.rosterb {
     color: #F4F4F4;
     font-family: verdana;
     font-size: 100%;
+>>>>>>> origin/master
 	padding-left: 20px;
 	padding-right: 20px;
     text-align: left;
 }
+<<<<<<< HEAD
+.rosterc {
+    color: #F4F4F4;
+    font-family: verdana;
+    font-size: 90%;
+=======
 td.rosterc {
     color: #F4F4F4;
     font-family: verdana;
     font-size: 100%;
+>>>>>>> origin/master
 	padding-left: 20px;
 	padding-right: 20px;
     text-align: center;
 }
+<<<<<<< HEAD
+.rosterd {
+    color: #F4F4F4;
+    font-family: verdana;
+    font-size: 90%;
+=======
 td.rosterd {
     color: #F4F4F4;
     font-family: verdana;
     font-size: 100%;
+>>>>>>> origin/master
 	padding-left: 20px;
 	padding-right: 20px;
     text-align: right;
@@ -129,3 +226,25 @@ noscroll {
     overflow-y: scroll;
     overflow-x: hidden;
 }
+<<<<<<< HEAD
+
+.maintable {
+    -webkit-box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, .7);
+    -moz-box-shadow:    0px 0px 4px 2px rgba(0, 0, 0, .7);
+    box-shadow:         0px 0px 4px 2px rgba(0, 0, 0, .7);
+    width: 80%;
+}
+.bottomtoolbar {
+    -webkit-box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, .7);
+    -moz-box-shadow:    0px 0px 4px 2px rgba(0, 0, 0, .7);
+    box-shadow:         0px 0px 4px 2px rgba(0, 0, 0, .7);
+    width: 100%;
+}
+.bottomtoolbardiv {
+	color: #F4F4F4;
+	font-family: verdana;
+	font-size: 90%;
+	text-align: right;
+}
+=======
+>>>>>>> origin/master

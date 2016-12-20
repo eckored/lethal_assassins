@@ -131,18 +131,31 @@ foreach ($Recruit as $user) {
 
 
 <!-- Screenshots -->
-<div>- Screenshots -</div>
+<center><table id="maintable1" style="background: rgba(0,0,0,0.6)"><tr><td><div>- Screenshots -</div></td></tr></table></center><br>
+<center><table id="maintable2" style="background: rgba(0,0,0,0.6)"><tr><td><br>
 <div class="w3-content w3-display-container" style="max-width:700px">
-  <img class="mySlides" src="img/screenshots/solo/01.jpg" style="width:100%">
-  <img class="mySlides" src="img/screenshots/solo/02.jpg" style="width:100%">
-  <img class="mySlides" src="img/screenshots/solo/03.jpg" style="width:100%">
-  <img class="mySlides" src="img/screenshots/solo/04.jpg" style="width:100%">
-  <img class="mySlides" src="img/screenshots/solo/05.jpg" style="width:100%">
-  <img class="mySlides" src="img/screenshots/solo/06.jpg" style="width:100%">
-  <img class="mySlides" src="img/screenshots/solo/07.jpg" style="width:100%">
-  <img class="mySlides" src="img/screenshots/solo/08.jpg" style="width:100%">
-  <img class="mySlides" src="img/screenshots/solo/09.jpg" style="width:100%">
-  <img class="mySlides" src="img/screenshots/solo/10.jpg" style="width:100%">
+  <img class="mySlides" src="http://imgur.com/WuepXLd.jpg" style="width:100%">
+  <img class="mySlides" src="http://imgur.com/Mkz1oMj.jpg" style="width:100%">
+  <img class="mySlides" src="http://imgur.com/sMo48zc.jpg" style="width:100%">
+  <img class="mySlides" src="http://imgur.com/X1xyVRr.jpg" style="width:100%">
+  <img class="mySlides" src="http://imgur.com/QMo1A9R.jpg" style="width:100%">
+  <img class="mySlides" src="http://imgur.com/YLBbmBD.jpg" style="width:100%">
+  <img class="mySlides" src="http://imgur.com/3Iqrxkg.jpg" style="width:100%">
+  <img class="mySlides" src="http://imgur.com/43T8O96.jpg" style="width:100%">
+  <img class="mySlides" src="http://imgur.com/NvP0BVW.jpg" style="width:100%">
+  <img class="mySlides" src="http://imgur.com/JlVskZt.jpg" style="width:100%">
+  <img class="mySlides" src="http://imgur.com/IsZqwQW.jpg" style="width:100%">
+  <img class="mySlides" src="http://imgur.com/nOmAsvp.jpg" style="width:100%">
+  <img class="mySlides" src="http://imgur.com/e8cdv5g.jpg" style="width:100%">
+  <img class="mySlides" src="http://imgur.com/aEM8OKe.jpg" style="width:100%">
+  <img class="mySlides" src="http://imgur.com/ArxUbnx.jpg" style="width:100%">
+  <img class="mySlides" src="http://imgur.com/VBV9Ocg.jpg" style="width:100%">
+  <img class="mySlides" src="http://imgur.com/FPsxaxf.jpg" style="width:100%">
+  <img class="mySlides" src="http://imgur.com/Avm7zQE.jpg" style="width:100%">
+  <img class="mySlides" src="http://imgur.com/X5dzXw3.jpg" style="width:100%">
+  <img class="mySlides" src="http://imgur.com/1qb5di1.jpg" style="width:100%">
+  <img class="mySlides" src="http://imgur.com/hISbQb.jpgR" style="width:100%">
+  <img class="mySlides" src="http://imgur.com/vOVN031.jpg" style="width:100%">
   <div class="w3-center w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
     <div class="w3-left w3-padding-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
     <div class="w3-right w3-padding-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
@@ -156,9 +169,24 @@ foreach ($Recruit as $user) {
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(8)"></span>
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(9)"></span>
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(10)"></span>
-  </div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(11)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(12)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(13)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(14)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(15)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(16)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(17)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(18)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(19)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(20)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(21)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(22)"></span>
+    </div>
 </div>
-<br><br>
+<script>var slideIndex = 1;showDivs(slideIndex);function plusDivs(n) {showDivs(slideIndex += n);}function currentDiv(n) {showDivs(slideIndex = n);}function showDivs(n) {var i;var x = document.getElementsByClassName("mySlides");var dots = document.getElementsByClassName("demo");if (n > x.length) {slideIndex = 1}if (n < 1) {slideIndex = x.length}for (i = 0; i < x.length; i++) {x[i].style.display = "none";}for (i = 0; i < dots.length; i++) {dots[i].className = dots[i].className.replace(" w3-white", "");}x[slideIndex-1].style.display = "block";dots[slideIndex-1].className += " w3-white";}</script>
+<br>
+</td></tr></table></center>
+<br><br><br>
 
 <script>
 var slideIndex = 1;

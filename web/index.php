@@ -68,7 +68,7 @@
   </tr>
 
 <?php
-$memberQuery = "SELECT `id`, `rank`, `name`, `joindate`, `discordid` FROM Master ORDER BY `joindate`";
+$memberQuery = "SELECT `id`, `rank`, `name`, `joindate`, `discordid` FROM player WHERE rank = 1 ORDER BY `joindate`";
 $Master = $dbh->query($memberQuery);
 
 foreach ($Master as $user) {
@@ -87,7 +87,7 @@ foreach ($Master as $user) {
     <th id="roster1" colspan="4"></th>
   </tr>
 <?php
-$memberQuery = "SELECT `id`, `rank`, `name`, `joindate`, `discordid` FROM Officer ORDER BY `joindate`";
+$memberQuery = "SELECT `id`, `rank`, `name`, `joindate`, `discordid` FROM player WHERE rank = 2 OR rank = 3 ORDER BY rank ASC, `joindate`";
 $Officer = $dbh->query($memberQuery);
 
 foreach ($Officer as $user) {
@@ -105,7 +105,7 @@ foreach ($Officer as $user) {
     <th id="roster1" colspan="4"></th>
   </tr>
 <?php
-$memberQuery = "SELECT `id`, `rank`, `name`, `joindate`, `discordid` FROM Officer ORDER BY `joindate`";
+$memberQuery = "SELECT `id`, `rank`, `name`, `joindate`, `discordid` FROM player WHERE rank = 4 ORDER BY `joindate`";
 $Fighter = $dbh->query($memberQuery);
 
 foreach ($Fighter as $user) {
@@ -123,7 +123,7 @@ foreach ($Fighter as $user) {
     <th id="roster1" colspan="4"></th>
   </tr>
 <?php
-$memberQuery = "SELECT `id`, `rank`, `name`, `joindate`, `discordid` FROM Officer ORDER BY `joindate`";
+$memberQuery = "SELECT `id`, `rank`, `name`, `joindate`, `discordid` FROM player WHERE rank = 13 ORDER BY `joindate`";
 $Recruit = $dbh->query($memberQuery);
 
 foreach ($Recruit as $user) {

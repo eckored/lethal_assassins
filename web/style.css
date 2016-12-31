@@ -7,78 +7,71 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-div {
+.mySlides {
+    display: none;
+}
+.w3-left, .w3-right, .w3-badge {
+    cursor: pointer;
+}
+.w3-badge {
+    height: 13px;
+    width: 13px; 
+    padding: 0;
+}
+.maintable {
+    -webkit-box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, .7);
+    -moz-box-shadow:    0px 0px 4px 2px rgba(0, 0, 0, .7);
+    box-shadow:         0px 0px 4px 2px rgba(0, 0, 0, .7);
+    width: 80%;
+}
+h3 {
 	color: #F4F4F4;
 	font-family: verdana;
 	font-size: 120%;
 	text-align: center;
 }
+.rss1 {
+	color: #F4F4F4;
+	font-family: verdana;
+	font-size: 110%;
+	text-align: left;
+    text-decoration: underline;
+}
+.rss2 {
+	color: #BCBCBC;
+	font-family: verdana;
+	font-size: 100%;
+	text-align: left;
+}
+.menu {
+    color: #F4F4F4;
+	font-family: verdana;
+	font-size: 110%;
+    font-weight: bold;
+}
+/* -------------------------------------------------------------------------------- */
+a:active {
+    color: red;
+    text-decoration: none;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+/* -------------------------------------------------------------------------------- */
 .contact {
 	color: #F4F4F4;
 	font-family: verdana;
 	font-size: 90%;
 	text-align: justify;
-}
-.rostertop {
-	border-top: 3px solid #F4F4F4;
-	border-bottom: 3px solid #F4F4F4;
-}
-.rostercontact {
-	border-top: 0px;
-	border-bottom: 2px solid #F4F4F4;
-    width: 550px;
-}
-.rostercontact {
-    color: #F4F4F4;
-    font-family: verdana;
-    font-size: 100%;
-	padding-left: 20px;
-	padding-right: 20px;
-	/*border-bottom: 2px solid #F4F4F4;*/
-}
-.rostertha {
-    color: #F4F4F4;
-    font-family: verdana;
-    font-size: 100%;
-	padding-left: 20px;
-	padding-right: 20px;
-	border-bottom: 2px solid #F4F4F4;
-    text-align: center;
-}
-.rosterthb {
-    color: #F4F4F4;
-    font-family: verdana;
-    font-size: 100%;
-	padding-left: 20px;
-	padding-right: 20px;
-	border-bottom: 2px solid #F4F4F4;
-    text-align: left;
-}
-.rosterthc {
-    color: #F4F4F4;
-    font-family: verdana;
-    font-size: 100%;
-	padding-left: 20px;
-	padding-right: 20px;
-	border-bottom: 2px solid #F4F4F4;
-    text-align: center;
-}
-.rosterthd {
-    color: #F4F4F4;
-    font-family: verdana;
-    font-size: 100%;
-	padding-left: 20px;
-	padding-right: 20px;
-	border-bottom: 2px solid #F4F4F4;
-    text-align: right;
-}
-.rosterth {
-    color: #808080;
-    font-family: verdana;
-    font-size: 100%;
-	padding-left: 20px;
-	padding-right: 20px;
-	border-bottom: 1px solid #808080;
 }
 .roster {
     color: #F4F4F4;
@@ -87,38 +80,37 @@ div {
 	padding-left: 20px;
 	padding-right: 20px;
 }
-.rostera {
+.rostertop {
+	border-top: 3px solid #F4F4F4;
+	border-bottom: 3px solid #F4F4F4;
+}
+.rostercontact {
+	border-top: 0px;
+	border-bottom: 3px solid #F4F4F4;
     color: #F4F4F4;
     font-family: verdana;
-    font-size: 90%;
+    font-size: 100%;
 	padding-left: 20px;
 	padding-right: 20px;
-    text-align: center;
+    width: 550px;
 }
-.rosterb {
+.rosterspacer {
+    color: #808080;
+    font-family: verdana;
+    font-size: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-bottom: 1px solid #808080;
+}
+.rosterth {
     color: #F4F4F4;
     font-family: verdana;
-    font-size: 90%;
+    font-size: 100%;
 	padding-left: 20px;
 	padding-right: 20px;
-    text-align: left;
+	border-bottom: 2px solid #F4F4F4;
 }
-.rosterc {
-    color: #F4F4F4;
-    font-family: verdana;
-    font-size: 90%;
-	padding-left: 20px;
-	padding-right: 20px;
-    text-align: center;
-}
-.rosterd {
-    color: #F4F4F4;
-    font-family: verdana;
-    font-size: 90%;
-	padding-left: 20px;
-	padding-right: 20px;
-    text-align: right;
-}
+/* -------------------------------------------------------------------------------- */
 noscroll {
     position: fixed;
     bottom: 0px;
@@ -129,13 +121,7 @@ noscroll {
     overflow-y: scroll;
     overflow-x: hidden;
 }
-
-.maintable {
-    -webkit-box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, .7);
-    -moz-box-shadow:    0px 0px 4px 2px rgba(0, 0, 0, .7);
-    box-shadow:         0px 0px 4px 2px rgba(0, 0, 0, .7);
-    width: 80%;
-}
+/* -------------------------------------------------------------------------------- */
 .bottomtoolbar {
     -webkit-box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, .7);
     -moz-box-shadow:    0px 0px 4px 2px rgba(0, 0, 0, .7);

@@ -1,30 +1,23 @@
 <!doctype html>
-
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-
-  <title>LETHAL-ASSASSINS</title>
-  <meta name="description" content="Lethal Assassins : Media">
-  <meta name="author" content="EckoRED">
-  <link rel="stylesheet" type="text/css" href="style.css">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <meta charset="utf-8">
+    <title>Lethal Assassins : Media</title>
+    <meta name="description" content="Lethal Assassins : Media">
+    <meta name="author" content="EckoRED">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 </head>
 <body><noscroll>
 
 <!-- Top Logo -->
-<table height="100" width="100%" borderwidth="0" padding="0" cellpadding="0" cellspacing="0">
-  <tr>
+<table height="100" width="100%" borderwidth="0" padding="0" cellpadding="0" cellspacing="0"><tr>
     <td vAlign="center" align="center"><img src="http://i.imgur.com/Ae08bX6.png"/></td>
-  </tr>
-</table>
+</tr></table>
 
 <!-- Menu -->
-
-<center><a class="menu" href="/index.php">HOME</a> &#8226; <a class="menu" href="/roster.php">ROSTER</a> &#8226; <a class="menu" href="/media.php">MEDIA</a></center>
-
+<center style="color: #F4F4F4"><a class="menu" href="/index.php">HOME</a> &#8226; <a class="menu" href="/roster.php">ROSTER</a> &#8226; <a class="menu" href="/media.php">MEDIA</a></center>
 <br><br>
 
 <!-- Screenshots -->
@@ -80,27 +73,21 @@
     </div>
 </div>
 <script>var slideIndex = 1;showDivs(slideIndex);function plusDivs(n) {showDivs(slideIndex += n);}function currentDiv(n) {showDivs(slideIndex = n);}function showDivs(n) {var i;var x = document.getElementsByClassName("mySlides");var dots = document.getElementsByClassName("demo");if (n > x.length) {slideIndex = 1}if (n < 1) {slideIndex = x.length}for (i = 0; i < x.length; i++) {x[i].style.display = "none";}for (i = 0; i < dots.length; i++) {dots[i].className = dots[i].className.replace(" w3-white", "");}x[slideIndex-1].style.display = "block";dots[slideIndex-1].className += " w3-white";}</script>
-<br>
-</td></tr></table></center>
+<br></td></tr></table></center>
 <br><br>
 
-
 <!-- Fan Art -->
-<center><table class="maintable" style="background: rgba(0,0,0,0.6)"><tr><td><div>- Fan Art -</div></center><br>
+<center><table class="maintable" style="background: rgba(0,0,0,0.6)"><tr><td><h3>- Fan Art -</h3></center><br>
 
 <center><img class="fanartimg" src="http://imgur.com/eBR0uqV.jpg" width="" height=""/></center>
 <br>
 <center><img class="fanartimg" src="http://imgur.com/AbewAnp.jpg" width="" height=""/></center>
-
-<br>
-</td></tr></table></center>
-
+<br></td></tr></table></center>
 <br><br><br>
-
 
 <!-- Bottom Toolbar -->
 <table class="bottomtoolbar" style="background: rgba(0,0,0,0.7)"><tr><td>
-<div class="bottomtoolbardiv">Copyright &copy; 2016 by Jeremy Manning &nbsp;</div>
+<div class="bottomtoolbardiv">Copyright &copy; 2016 by Jeremy Manning aka EckoRED</div>
 </td></tr></table></center>
 </noscroll></body>
 </html>

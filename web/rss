@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <generator>RSS Builder by B!Soft</generator>
+    <title>Lethal Assassins News</title>
+    <link>http://lethal-assassins.pro/</link>
+    <description>The latest in Lethal Assassin news! Find out about tournaments, clan wars, special events and more!</description>
+    <language>en-us</language>
+    <managingEditor>ecko2056@gmail.com</managingEditor>
+    <webMaster>ecko2056@gmail.com</webMaster>
+    <copyright>Jeremy Manning 2016</copyright>
+    <item>
+      <title>testing 1 2 3</title>
+      <pubDate>Sat, 31 Dec 2016 21:09:11 -0600</pubDate>
+      <description><![CDATA[test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test ]]></description>
+    </item>
+    <item>
+      <title>second test</title>
+      <pubDate>Sat, 31 Dec 2016 21:08:52 -0600</pubDate>
+      <description><![CDATA[this is another test]]></description>
+    </item>
+    <item>
+      <title>News feed test!</title>
+      <pubDate>Sat, 31 Dec 2016 21:08:19 -0600</pubDate>
+      <description><![CDATA[this is a test]]></description>
+    </item>
+  </channel>
+</rss>
